@@ -94,6 +94,13 @@ export class AppComponent {
       experience: {
         title: 'Experiência',
         list: [
+             {
+            period: '2023-presente',
+            role: 'Freelancer - Roblox Dev',
+            company: 'Clientes internacionais',
+            location: 'Remoto',
+            detail: 'Scripts, plugins e sistemas em Luau/Roblox; jogos com tração real e UI/UX in-game.',
+          },
           {
             period: 'Mar-Jul 2023',
             role: 'Software Developer - Estágio',
@@ -101,13 +108,6 @@ export class AppComponent {
             location: 'Lisboa, PT',
             detail:
               'C# + SQL; novos fluxos e melhorias na aplicação; suporte multilingue em site ASP.NET MVC; workflow pull/merge/push.',
-          },
-          {
-            period: '2023-presente',
-            role: 'Freelancer - Roblox Dev',
-            company: 'Clientes internacionais',
-            location: 'Remoto',
-            detail: 'Scripts, plugins e sistemas em Luau/Roblox; jogos com tração real e UI/UX in-game.',
           },
         ],
       },
@@ -126,9 +126,9 @@ export class AppComponent {
         formationTitle: 'Formação',
       },
       formation: [
-        { period: '2020-2023', title: 'INETE - TGPSI', detail: 'Gestão e Programação de Sistemas Informáticos' },
-        { period: '2023', title: 'Estágio curricular - MediaLog Europa', detail: 'Estágio final do INETE, bases de desenvolvimento' },
         { period: '2023-presente', title: 'ISTEC - CTESP Dev Mobile', detail: '2.º ano, foco em mobile e web' },
+         { period: '2023', title: 'Estágio curricular - MediaLog Europa', detail: 'Estágio final do INETE, bases de desenvolvimento' },
+        { period: '2020-2023', title: 'INETE - TGPSI', detail: 'Gestão e Programação de Sistemas Informáticos' }, 
       ],
       projects: {
         title: 'Projetos',
@@ -217,19 +217,19 @@ export class AppComponent {
         title: 'Experience',
         list: [
           {
+            period: '2023-present',
+            role: 'Freelancer - Roblox Dev',
+            company: 'International clients',
+            location: 'Remote',
+            detail: 'Scripts, plugins, and systems in Luau/Roblox; games with traction and in-game UI/UX.',
+          },
+                    {
             period: 'Mar-Jul 2023',
             role: 'Software Developer - Intern',
             company: 'MediaLog Europa',
             location: 'Lisbon, PT',
             detail:
               'C# + SQL; new flows and enhancements; multilingual support for ASP.NET MVC site; pull/merge/push workflow.',
-          },
-          {
-            period: '2023-present',
-            role: 'Freelancer - Roblox Dev',
-            company: 'International clients',
-            location: 'Remote',
-            detail: 'Scripts, plugins, and systems in Luau/Roblox; games with traction and in-game UI/UX.',
           },
         ],
       },
@@ -248,9 +248,9 @@ export class AppComponent {
         formationTitle: 'Education',
       },
       formation: [
-        { period: '2020-2023', title: 'INETE - TGPSI', detail: 'IT management & programming (vocational)' },
-        { period: '2023', title: 'Curricular internship - MediaLog Europa', detail: 'Final INETE internship' },
         { period: '2023-present', title: 'ISTEC - CTESP Mobile Dev', detail: '2nd year, mobile & web' },
+         { period: '2023', title: 'Curricular internship - MediaLog Europa', detail: 'Final INETE internship' },
+        { period: '2020-2023', title: 'INETE - TGPSI', detail: 'IT management & programming (vocational)' },
       ],
       projects: {
         title: 'Projects',
